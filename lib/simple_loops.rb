@@ -23,3 +23,13 @@ def output_array (arr)
     index += 1
   end
 end
+
+def return_string_array (arr)
+new_array = []
+index = 0
+while index < arr.length do
+  new_array.push(arr[index].to_s)
+  index += 1
+end
+return new_array
+end
