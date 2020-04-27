@@ -8,7 +8,7 @@ end
 
 
 def loop_message_n_times(message)
-  n.to_i.times do 
+  n.to_i.times do
     puts message
   end
 end
