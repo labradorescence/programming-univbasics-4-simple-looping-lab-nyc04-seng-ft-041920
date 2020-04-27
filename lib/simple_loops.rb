@@ -5,3 +5,10 @@ def loop_message_five_times(message)
     puts message
   end
 end
+
+
+def loop_message_n_times(message)
+  n.to_i.times do 
+    puts message
+  end
+end
